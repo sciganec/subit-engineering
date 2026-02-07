@@ -1,110 +1,147 @@
 # SUBIT — Semantic Engineering
 
-SUBIT is a discrete semantic coordinate system for constructing, analyzing, and engineering meaning. It defines 64 semantic elements, 8 valence trigrams, 3 bigrams of subjectivity, and a crystalline topology that allows any semantic act to be expressed as a precise, formalized state.
+SUBIT is a discrete semantic coordinate system for constructing, analyzing, and engineering meaning. It defines 64 semantic elements formed by the interaction of inner valences (tensions) and outer valences (colors), supported by binary and bigram subjectivity coordinates. This crystalline structure enables meaning to be treated as a formal, engineerable domain.
 
-Semantic Engineering is the discipline that uses SUBIT as its core for designing semantic spaces, modeling subjectivity, defining operational mechanics, and building systems that treat meaning as a structured, engineerable domain.
+Semantic Engineering is the discipline built on SUBIT. It provides the methods and structures for designing semantic systems, modeling subjectivity, defining operational mechanics, and building meaning‑aware architectures.
 
 ---
 
 ## Purpose
 
-SUBIT provides:
+SUBIT establishes:
 
-- a discrete map of semantic space  
-- a universal set of 64 semantic elements  
-- 8 valence operations (trigrams)  
-- 3 bigrams of subjectivity (WHO / WHERE / WHEN)  
-- binary and trigram addressing  
-- a crystalline structure for semantic engineering  
+- a discrete semantic lattice of 64 elements  
+- inner valences (tensions) that define internal semantic force  
+- outer valences (colors) that define external semantic expression  
+- binary addressing for subjectivity  
+- bigram coordinates for WHO / WHERE / WHEN  
+- a crystalline topology for semantic engineering  
 
-The system applies to AI modeling, knowledge graphs, UX semantics, cognitive interfaces, narrative systems, and any domain where meaning must be formalized.
-
----
-
-## SUBIT Axiom
-
-Any semantic act can be described as:
-
-**element (64) × valence (8) × subjectivity (3 bigrams)**
-
-This creates a discrete space of 64 positions, each with:
-
-- inner valence  
-- outer valence  
-- binary address  
-- bigram address  
-- trigram (valence + color) code  
+The system applies to AI, knowledge representation, UX semantics, cognitive interfaces, and any domain requiring structured meaning.
 
 ---
 
-## System Structure
+## Inner Valence (Tension)
 
-### SUBIT‑3 (bigrams)
-- WHO: ME / YOU / WE / THEY  
-- WHERE: EAST / SOUTH / WEST / NORTH  
-- WHEN: SPRING / SUMMER / AUTUMN / WINTER  
+Inner valence encodes the internal semantic force that drives an element’s operation.
 
-### SUBIT‑8 (valence trigrams)
-S, V, F, M, T, C, D, N  
-Each valence corresponds to a canonical color.
+- **S — Source tension**  
+- **V — Vector tension**  
+- **F — Field tension**  
+- **M — Form tension**  
+- **T — Turn tension**  
+- **C — Compression tension**  
+- **D — Disintegration tension**  
+- **N — Null tension**
 
-### SUBIT‑64 (semantic elements)
-64 archetypes, each defined by an inner→outer valence pair.
+Inner valence defines what the element *does* internally.
 
 ---
 
-## Addressing
+## Outer Valence (Color)
 
-### Binary (6‑bit)
+Outer valence encodes the external semantic expression of the element.  
+Each color is represented by a two‑letter code.
+
+- **Bl — Blue**  
+- **Gr — Green**  
+- **Lm — Lime**  
+- **Yl — Yellow**  
+- **Or — Orange**  
+- **Rd — Red**  
+- **Bg — Burgundy**  
+- **Pu — Purple**
+
+Outer valence defines how the element *appears* externally.
+
+---
+
+## SUBIT‑64 Semantic Elements
+
+Each element is a combination of:
+
+- inner tension (S, V, F, M, T, C, D, N)  
+- outer color (Bl, Gr, Lm, Yl, Or, Rd, Bg, Pu)
+
+Example formats:
+
+- **SBl** — Source tension → Blue color  
+- **MOr** — Form tension → Orange color  
+- **DPu** — Disintegration tension → Purple color  
+
+These 64 combinations form the semantic periodic table.
+
+---
+
+## Subjectivity Coordinates (SUBIT‑3)
+
+Every semantic act is situated within three binary bigrams:
+
+- **WHO**: ME / YOU / WE / THEY  
+- **WHERE**: EAST / SOUTH / WEST / NORTH  
+- **WHEN**: SPRING / SUMMER / AUTUMN / WINTER  
+
+Each bigram is encoded as a 2‑bit pair, forming a 6‑bit binary address.
+
+---
+
+## Binary Addressing
+
+The 6‑bit address is structured as:
+
 - bits 1–2: WHO  
 - bits 3–4: WHERE  
 - bits 5–6: WHEN  
 
-### Bigram
-Each bit pair decodes into a subjectivity, spatial, and temporal mode.
-
-### Trigram
-Valence defines the operational mode and its color.
+This creates 64 subjectivity states, each combinable with any valence pair.
 
 ---
 
-## Periodic Table
+## The SUBIT Crystal
 
-SUBIT‑64 is organized as an 8×8 table:
+The SUBIT Crystal is an 8×8 lattice:
 
-- rows = inner valences  
-- columns = outer valences  
+- rows = inner valences (tensions)  
+- columns = outer valences (colors)  
 - each cell = one semantic element  
 
-This functions as a semantic analogue of the chemical periodic table.
+This crystalline topology provides:
 
----
+- symmetry  
+- orthogonality  
+- locality  
+- color topology  
+- navigable semantic geometry  
 
-## Repository Structure
-
-- `docs/overview/` — concepts, axiom, crystal  
-- `docs/system/` — formal specification of SUBIT‑3, SUBIT‑8, SUBIT‑64  
-- `docs/tables/` — periodic tables, codes, addressing  
-- `docs/elements/` — descriptions of all 64 elements  
-- `docs/theory/` — semantic mechanics, dynamics, topology  
-- `docs/applications/` — AI, UX, knowledge systems  
-- `data/` — JSON representations of SUBIT  
-- `diagrams/` — visual schematics  
-- `tools/` — utilities for working with SUBIT  
+It functions as the semantic analogue of a periodic table.
 
 ---
 
 ## Semantic Engineering
 
-Semantic Engineering is the engineering of meaning‑structures, including:
+Semantic Engineering is the engineering of meaning‑structures. It includes:
 
 - ontological design  
 - content architecture  
 - semantic chemistry  
 - subjectivity topology  
-- contextual operational modes  
+- contextual operational mechanics  
 
-SUBIT is its crystalline core.
+SUBIT is the crystalline core of this discipline.
+
+---
+
+## Repository Structure
+
+- `docs/overview/` — introduction, axiom, crystal  
+- `docs/system/` — SUBIT‑3, SUBIT‑8, SUBIT‑64 specifications  
+- `docs/tables/` — periodic tables, codes, addressing  
+- `docs/elements/` — descriptions of all 64 elements  
+- `docs/theory/` — semantic mechanics, dynamics, topology  
+- `docs/applications/` — AI, UX, knowledge systems  
+- `data/` — JSON representations  
+- `diagrams/` — visual schematics  
+- `tools/` — utilities for SUBIT  
 
 ---
 
@@ -116,4 +153,4 @@ MIT License.
 
 ## Attribution
 
-SUBIT is a semantic engineering system created to formalize and construct next‑generation meaning spaces.
+SUBIT is a semantic engineering system designed to formalize and construct next‑generation meaning spaces.
