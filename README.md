@@ -77,7 +77,7 @@ These 64 combinations form the semantic periodic table.
 
 Every semantic act is situated within three binary bigrams:
 
-- **WHO**: ME / YOU / WE / THEY  
+- **WHO**: ME / WE / YOU / THEY  
 - **WHERE**: EAST / SOUTH / WEST / NORTH  
 - **WHEN**: SPRING / SUMMER / AUTUMN / WINTER  
 
