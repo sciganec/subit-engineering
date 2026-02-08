@@ -139,9 +139,7 @@ SUBIT is the crystalline core of this discipline.
 - `docs/elements/` — descriptions of all 64 elements  
 - `docs/theory/` — semantic mechanics, dynamics, topology  
 - `docs/applications/` — AI, UX, knowledge systems  
-- `data/` — JSON representations  
-- `diagrams/` — visual schematics  
-- `tools/` — utilities for SUBIT  
+- `data/` — JSON representations   
 
 ---
 
