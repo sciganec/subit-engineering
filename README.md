@@ -140,7 +140,7 @@ SUBIT is the crystalline core of this discipline.
 - `docs/theory/` — semantic mechanics, dynamics, topology  
 - `docs/applications/` — AI, UX, knowledge systems  
 - `data/` — JSON representations   
-
+- `exam[ples/` - Philosopher's Stone, 64 Semantic Elements with 2 Valency
 ---
 
 ## License
